@@ -1,0 +1,16 @@
+.cool-number {
+  display: flex;
+  background-color: red;
+  border: 1px solid black;
+}
+
+.number {
+  flex: 1;
+  padding: 10px;
+  font-size: 4em;
+}
+
+.description {
+  flex: 8;
+}
+    
