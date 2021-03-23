@@ -3,6 +3,8 @@ import React from 'react';
 
 import CoolNumber from './CoolNumber.js';
 import Header from './Header.js';
+import Main from './Main.js';
+import Footer from './Footer.js';
 
 class App extends React.Component {
   render() {
@@ -11,10 +13,17 @@ class App extends React.Component {
         <header>
           <Header />
         </header>
-        <CoolNumber number="42" description="42 is the answer to the question of life, the universe, and everything." />
-        <CoolNumber number="43" description="43 is one more than 42." />
+
+        <main>
+          <Main />
+        </main>
+            
+        <footer>
+          <Footer />
+        </footer>
       </div>
-      );
+
+    );
   }
 }
 
