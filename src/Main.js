@@ -13,7 +13,7 @@ class Main extends React.Component {
     return (
     <main>
       <HornedBeasts name='1' title='whatever' imgUrl='https://placehold.it/400x300/444' description='whatever' />
-      <HornedBeasts name='2' title='whatever' imgUrl='https://placehold.it/400x300/444' description='different' />
+      <HornedBeasts name='2' title='whatever' imgUrl='https://placehold.it/400x300/444' description='different from 1' />
     </main>
     );
   }
