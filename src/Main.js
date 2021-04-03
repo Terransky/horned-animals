@@ -26,16 +26,9 @@ class Main extends React.Component {
   render() {
     return (
     <main>
-      data.forEach( (value) => {
-      <HornedBeasts title={value.title} imgUrl={value.image_url} description={value.description} keyword={value.keyword} horns={value.horns} />
-      });
     </main>
-    );
+    )
   }
 }
 
 export default Main;
-arr.forEach( (value, idx) => {
-  value++;
-  tempArr[idx] = value;
-});
