@@ -1,8 +1,11 @@
+
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { AiFillHeart } from 'react-icons/ai';
 
+
+console.log(data.map(beast => beast.name));
 
 class HornedBeasts extends React.Component {
   constructor(props) { //this lets us create an object in React

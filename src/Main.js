@@ -4,11 +4,14 @@
 
 // The HornedBeast component needs to contain an <h2> that displays the title of the animal, an <img> element with src, alt and title attributes, and a <p> that displays the description.
 
+
 //The Main component should pass props for the title, image and description to each HornedBeast component. You will find this information in the provided JSON file.
+
 
 import React from 'react';
 import HornedBeasts from './HornedBeasts';
 import './Main.css';
+import data from './data.json'; //an array of objects with properties: image_url, title, description, keyword, horns
 
 import CardColumns from 'react-bootstrap/CardDeck';
 
@@ -26,10 +29,12 @@ class Main extends React.Component {
     });
     
     return (
+
       <main>
       <CardColumns>
         {beastArray} {/*this displays the whole array of components we made earlier*/}
       </CardColumns>
+
     </main>
     );
   }
